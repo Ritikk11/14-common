@@ -632,3 +632,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     DeviceSettings
 
+# Audio (Dolby Atmos)
+$(call inherit-product, vendor/motorola-dolby/setup.mk)
